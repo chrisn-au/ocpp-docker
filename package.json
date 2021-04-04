@@ -4,13 +4,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node node_modules/node-red/red.js" 
+    "start": "node node_modules/node-red/red.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-red-contrib-ocpp": "^1.0.11"
+    "node-red": "^1.2.9",
+    "node-red-contrib-ocpp": "^1.0.11",
+    "reconnecting-websocket": "^4.4.0"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisn-au/ocpp-docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisn-au/ocpp-docker/issues"
+  },
+  "homepage": "https://github.com/chrisn-au/ocpp-docker#readme",
   "description": ""
 }
